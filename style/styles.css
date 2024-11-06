@@ -1,0 +1,84 @@
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:rgb(118, 211, 250);
+}
+
+.icono{
+  position: fixed;
+  top: 95%;
+  left: 98%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+/* barra de navegacion */
+
+header{
+  width: 100%;
+  overflow: hidden;
+  background-color: #208aed;
+  margin-bottom: 20px;
+  border: rgb(0, 157, 255) 2px solid;
+}
+
+.wrapper{
+  width: auto;
+  max-width: 98%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+header .titulo{
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  line-height: 500px;
+  float: center;
+  font-family: "Dancing Script", cursive;
+}
+
+.header1 .titulo{
+  line-height: 120px;
+  font-size: 70px;
+}
+
+.header1 nav{
+  line-height: 60px;
+}
+
+/* imagen principio */
+
+.fondo{
+  width: 100%;
+  max-width: 98%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.imagen{
+  display: flex;
+  justify-content: space-around;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-family: "Itim", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+}
+
